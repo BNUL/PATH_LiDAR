@@ -197,6 +197,9 @@ For questions, issues, or contributions, please open an issue on GitHub or conta
 
 ## References
 
-1. Ni-Meister, W., et al. (2001). A clumped-foliage canopy radiative transfer model for a Global Dynamic Terrestrial Ecosystem Model
-2. DART model: Gastellu-Etchegorry, J. P., et al. (2015). Discrete Anisotropic Radiative Transfer (DART 5) for modeling airborne and satellite spectroradiometer and LIDAR acquisitions
-3. GLAS/ICESat: Zwally, H. J., et al. (2002). ICESat's laser measurements of polar ice, atmosphere, ocean, and land
+1. Ni-Meister, W., Jupp, D.L.B., & Dubayah, R. (2001). Modeling lidar waveforms in heterogeneous and discrete canopies. Ieee Transactions on Geoscience and Remote Sensing, 39, 1943-1958. https://doi.org/10.1109/36.951085
+2. Li, X.W., & Strahler, A.H. (1988). Modeling the Gap Probability of a Discontinuous Vegetation Canopy. Ieee Transactions on Geoscience and Remote Sensing, 26, 161-170. https://doi.org/10.1109/36.3017
+3. Blair, J.B., & Hofton, M.A. (1999). Modeling laser altimeter return waveforms over complex vegetation using high‐resolution elevation data. Geophysical research letters, 26, 2509-2512. https://doi.org/10.1029/1999GL010484
+4. Li, W., Yan, G., Mu, X., Tong, Y., Zhou, K., & Xie, D. (2024). Modeling the hotspot effect for vegetation canopies based on path length distribution. Remote Sensing of Environment, 303, 113985. https://doi.org/10.1016/j.rse.2023.113985
+
+
