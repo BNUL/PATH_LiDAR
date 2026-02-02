@@ -1,0 +1,60 @@
+ Spectral band number : 0
+
+	 Total Stats :
+		Maximum order of scattering: 	101
+		Maximum order of scattering within a cell: 	101
+		Total weights of launched dart photons :	5e+005
+		Total launched actual LIDAR photons :	5.3563e+016 : 100%
+		Sum of photons (absorbed, scattered) :	5.3563e+016 : 100%
+			Photons absorbed : 	1.5339e+016 : 28.638%
+			Photons scattered and not measured :	3.8224e+016 : 71.362%
+			Photons scattered towards LIDAR :	24720 : 4.6152e-011%
+				***Photons measured :	18385 : 3.4324e-011% : (100%)
+		Order 1 - Sum of photons (absorbed, scattered) : 4.8508e+016 : 90.563%
+			Photons absorbed : 1.3605e+016 : 25.4%
+			Photons scattered : 3.4903e+016 : 65.162%
+			Photons scattered towards LIDAR :	16242 : 3.0323e-011%
+				***Photons measured :	16242 : 3.0323e-011% : (88.342%)
+
+	 Downward Tracking in Atmosphere (Before Earth scene interaction) :
+		Sum of photons (absorbed, scattered) :	0 : 0%
+			Photons absorbed :		0 : 0%
+			Photons scattered and not measured :	0 : 0%
+			Photons scattered towards LIDAR :	0 : 0%
+				***Photons measured :	0 : 0% : (0%)
+		Order 1 - Sum of photons (absorbed, scattered) : 0 : 0%
+			Photons absorbed : 0 : 0%
+			Photons scattered : 0 : 0%
+			Photons scattered towards LIDAR :	0 : 0%
+				***Photons measured :	0 : 0% : (0%)
+
+	 Tracking within Earth Scene :
+		Photons incident on the scene : 	5.3563e+016 : 100%
+		Photons directly incident on the scene (0th Order) : 	5.3563e+016 : 100%
+
+		Ground :
+			Photons under the ground (should be 0) : 	0 : 0%
+			Photons incident on the ground : 	1.724e+016 : 32.186%
+				Photons scattered towards LIDAR from the ground : 	3205.1 : 5.9839e-012%
+					***Photons measured :	3053.2 : 5.7002e-012% : (16.607%)
+			Order 1 :
+				Photons directly incident on the ground: 	1.6099e+016 : 30.056%
+				Photons scattered towards LIDAR from directly incidence on the ground : 	2993 : 5.5879e-012%
+					***Photons measured :	2993 : 5.5879e-012% : (16.28%)
+		Sum of photons (absorbed, scattered) :	5.3563e+016 : 100%
+			Photons absorbed :	1.5339e+016 : 28.638%
+			Photons scattered and not measured : 	3.8224e+016 : 71.362%
+			Photons scattered towards LIDAR :	24720 : 4.6152e-011%
+				***Photons measured :	18385 : 3.4324e-011% : (100%)
+		Order 1 - Sum of photons (absorbed, scattered) :4.8508e+016 : 90.563%
+			Photons absorbed : 1.3605e+016 : 25.4%
+			Photons scattered : 3.4903e+016 : 65.162%
+			Photons scattered towards LIDAR :	16242 : 3.0323e-011%
+				***Photons measured :	16242 : 3.0323e-011% : (88.342%)
+
+	 Upward Tracking in Atmosphere (After Earth scene interaction) :
+		Sum of photons (absorbed, scattered) :	0 : 0%
+			Photons absorbed :		0 : 0%
+			Photons scattered and not measured : 	0 : 0%
+			Photons scattered towards LIDAR :	0 : 0%
+				***Photons measured :	0 : 0% : (0%)

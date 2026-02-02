@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "LiDAR Waveform Simulator for Vegetation Canopy Analysis"
+authors:
+  - family-names: "Your Family Name"
+    given-names: "Your Given Name"
+    affiliation: "Your Institution"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/yourusername/lidar-waveform-simulator"
+url: "https://github.com/yourusername/lidar-waveform-simulator"
+abstract: "A Python-based full-waveform LiDAR simulator for vegetation canopy analysis using the PATH (Photon tracing for Atmosphere and canopy Height) model. This simulator generates realistic LiDAR waveforms for nadir-looking instruments over forest canopies."
+keywords:
+  - LiDAR
+  - remote sensing
+  - vegetation
+  - canopy structure
+  - waveform simulation
+  - PATH model
+  - radiative transfer
+license: MIT
+version: 1.0.0
+date-released: "2026-02-02"

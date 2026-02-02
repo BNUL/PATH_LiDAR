@@ -1,0 +1,25 @@
+[Ilwis]
+Description=Raster Map LidarBOA
+Time=0
+Type=BaseMap
+
+[BaseMap]
+CoordSystem=unknown.csy
+CoordBounds=0 -25 25 0
+Domain=value.dom
+DomainInfo=value.dom;Long;value;0;-9999999.9:9999999.9:0.1:offset=0;
+Range=-1e+300:1e+300:0.000000:offset=0
+Type=Map
+MinMax=0:15.0551
+
+[Map]
+GeoRef=LidarBOA.grf
+Size=50 50
+Type=MapStore
+
+[MapStore]
+Data=LidarBOA.mp#
+Type=Real
+Structure=Line
+StartOffset=0
+RowLength=50
