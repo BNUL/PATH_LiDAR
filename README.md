@@ -1,6 +1,6 @@
 # LiDAR Waveform Simulator
 
-A Python-based full-waveform LiDAR simulator for vegetation canopy analysis using the PATH (Photon tracing for Atmosphere and canopy Height) model. This simulator generates realistic LiDAR waveforms for nadir-looking instruments over forest canopies.
+A Python-based full-waveform LiDAR simulator for vegetation canopy analysis using the PATH_LiDAR model. This simulator generates realistic LiDAR waveforms for nadir-looking instruments over forest canopies.
 
 ## Features
 
@@ -164,7 +164,7 @@ The simulator implements:
 
 1. **Gap Probability Model**: Uses exponential attenuation based on path-length distribution within crowns
 2. **Turbid Medium Approximation**: Treats canopy as a continuous medium with specified leaf area density
-3. **Multiple Scattering**: Optional second-order scattering effects
+3. **Single Scattering**: Vegetation scattering coefficient
 4. **G-function**: Accounts for leaf angle distribution effects on interception
 5. **Pulse Convolution**: Realistic pulse broadening using Gaussian pulses
 
@@ -188,8 +188,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - RAMI validation data derived from DART model simulations
-- PATH model theoretical framework
-- GLAS/ICESat mission for pulse shape parameters
+- PATH model theoretical framework (PATH_RT and PATH_LiDAR)
 
 ## Contact
 
