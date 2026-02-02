@@ -24,8 +24,8 @@ A Python-based full-waveform LiDAR simulator for vegetation canopy analysis usin
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/lidar-waveform-simulator.git
-cd lidar-waveform-simulator
+git clone https://github.com/BNUL/PATH_LiDAR.git
+cd PATH_LiDAR
 ```
 
 2. Install required dependencies:
@@ -175,9 +175,9 @@ If you use this simulator in your research, please cite:
 ```bibtex
 @software{lidar_waveform_simulator,
   title={LiDAR Waveform Simulator for Vegetation Canopy Analysis},
-  author={Your Name},
+  author={Weihua Li},
   year={2026},
-  url={https://github.com/yourusername/lidar-waveform-simulator}
+  url={https://github.com/BNUL/PATH_LiDAR}
 }
 ```
 
@@ -193,7 +193,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For questions, issues, or contributions, please open an issue on GitHub or contact [your.email@institution.edu].
+For questions, issues, or contributions, please open an issue on GitHub or contact [weihuahk@hku.hk](mailto:weihuahk@hku.hk).
 
 ## References
 
