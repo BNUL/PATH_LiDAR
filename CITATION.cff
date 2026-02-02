@@ -9,7 +9,7 @@ authors:
     orcid: "https://orcid.org/0000-0000-0000-0000"
 repository-code: "https://github.com/BNUL/PATH_LiDAR"
 url: "https://github.com/BNUL/PATH_LiDAR"
-abstract: "A Python-based full-waveform LiDAR simulator for vegetation canopy analysis using the PATH (Photon tracing for Atmosphere and canopy Height) model. This simulator generates realistic LiDAR waveforms for nadir-looking instruments over forest canopies."
+abstract: "A Python-based full-waveform LiDAR simulator for vegetation canopy analysis using the PATH_LiDAR model. This simulator generates realistic LiDAR waveforms for nadir-looking instruments over forest canopies."
 keywords:
   - LiDAR
   - remote sensing
