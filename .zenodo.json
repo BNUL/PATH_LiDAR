@@ -1,6 +1,6 @@
 {
   "title": "PATH LiDAR: Full-Waveform LiDAR Simulator for Vegetation Canopy Analysis",
-  "description": "A Python-based full-waveform LiDAR simulator for vegetation canopy analysis using the PATH (Photon tracing for Atmosphere and canopy Height) model. This simulator generates realistic LiDAR waveforms for nadir-looking instruments over forest canopies with support for multiple crown shapes (cylinder, sphere, cone) and includes RAMI validation data.",
+  "description": "A Python-based full-waveform LiDAR simulator for vegetation canopy analysis using the PATH_LiDAR model. This simulator generates realistic LiDAR waveforms for nadir-looking instruments over forest canopies with support for multiple crown shapes (cylinder, sphere, cone) and includes RAMI validation data.",
   "license": "MIT",
   "upload_type": "software",
   "creators": [
