@@ -1260,13 +1260,25 @@ class LiDARWaveformSimulator:
                 height = crown_top + height_offset - np.arange(len(waveform)) * self.config.layer_height
             else:
                 # 使用高斯脉冲（确保峰值在中心）
-                pulse_width_ns = 3.0  # 脉冲宽度 (ns)
+                # ============================================================
+                # GEDI脉冲配置参考 (Hancock et al. 2019b):
+                # - FWHM = 15.6 ns (Full Width at Half Maximum)
+                # - FWHM = 2.35 × σ  (σ: standard deviation)
+                # - 有效区间: [μ - 3σ, μ + 3σ]  (μ: mean value)
+                # 
+                # 当前默认配置 (用户可修改):
+                # - pulse_width_ns = 3.0 ns (对应FWHM)
+                # - n_sigma = 4 (使用±4σ范围，比GEDI的±3σ更宽)
+                # 
+                # 如需匹配GEDI，请设置: pulse_width_ns = 15.6, n_sigma = 3
+                # ============================================================
+                pulse_width_ns = 15.6  # 脉冲宽度 (ns)，即FWHM
                 c = 0.3  # 光速 (m/ns)
                 pulse_width_m = pulse_width_ns * c / 2  # 转换为距离（往返）
-                sigma = pulse_width_m / 2.355  # sigma in meters
+                sigma = pulse_width_m / 2.355  # 标准差 σ (m): FWHM = 2.355 × σ
                 
                 # 脉冲长度
-                n_sigma = 4  # 覆盖±4σ范围
+                n_sigma = 3  # 覆盖±4σ范围（GEDI使用±3σ）
                 n_samples = int(2 * n_sigma * sigma / self.config.layer_height)
                 if n_samples % 2 == 0:  # 确保是奇数，使峰值在中心
                     n_samples += 1
