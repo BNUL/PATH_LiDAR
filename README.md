@@ -163,7 +163,7 @@ Main simulation class that:
 The simulator implements:
 
 1. **Gap Probability Model**: Uses exponential attenuation based on path-length distribution within crowns
-2. **Turbid Medium Approximation**: Treats canopy as a continuous medium with specified leaf area density
+2. **Turbid voxel Approximation**: Treats canopy voxel as a turbid medium with specified leaf area density
 3. **Single Scattering**: Vegetation scattering coefficient
 4. **G-function**: Accounts for leaf angle distribution effects on interception
 5. **Pulse Convolution**: Realistic pulse broadening using Gaussian pulses
